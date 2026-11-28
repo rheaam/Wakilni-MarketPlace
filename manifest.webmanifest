@@ -1,7 +1,7 @@
 {
-  "name": "Wakilni Marketplace",
-  "short_name": "Wakilni",
-  "description": "Lebanon's best beauty, self-care, pharmacy and fitness stores, delivered together by one Wakilni driver.",
+  "name": "Lamma by Wakilni",
+  "short_name": "Lamma",
+  "description": "Lamma by Wakilni: Lebanon's best beauty, self-care and fitness stores, delivered together by one Wakilni driver.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

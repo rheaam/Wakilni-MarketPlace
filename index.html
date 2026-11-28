@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#1f0b19">
-<title>Wakilni Marketplace</title>
+<title>Lamma by Wakilni</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Wakilni">
+<meta name="apple-mobile-web-app-title" content="Lamma">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -338,6 +338,7 @@ footer{background:var(--plum);color:#eadde5;padding-bottom:env(safe-area-inset-b
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translate(-50%,16px);opacity:0;background:var(--ink);color:var(--bg);padding:12px 20px;border-radius:999px;font-size:14px;font-weight:700;z-index:80;transition:.25s;pointer-events:none;white-space:nowrap}
 .toast.on{opacity:1;transform:translate(-50%,0)}
 .view{display:none}.view.on{display:block}
+.side .logo small,footer .logo small{display:block!important}
 .aisle:nth-child(3):last-child{grid-column:1/-1;aspect-ratio:2/1}
 /* app frame */
 body{max-width:480px;margin:0 auto;min-height:100dvh;position:relative}
@@ -377,7 +378,7 @@ h1{font-size:clamp(32px,9vw,44px)}h2{font-size:clamp(24px,7vw,32px)}
 
 <header><div class="wrap hd">
   <button class="ib" data-act="menu" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button>
-  <a class="logo" href="#home" aria-label="Wakilni Marketplace home"><i>w</i></a>
+  <a class="logo" href="#home" aria-label="Lamma by Wakilni home"><i>L</i></a>
   <button class="locb" data-act="loc" aria-label="Choose delivery location"><span class="pin"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><span class="lt"><b id="locName">Home</b><small id="locSub">Hamra, Beirut</small></span><svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg></button>
   <div class="srch">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
@@ -395,7 +396,7 @@ h1{font-size:clamp(32px,9vw,44px)}h2{font-size:clamp(24px,7vw,32px)}
 <div class="pop" id="pop" role="dialog" aria-label="My level"></div>
 <div class="scrim" id="scrim"></div>
 <aside class="side" id="side" aria-label="Menu">
-  <div class="top"><a class="logo" href="#home"><i>w</i><span>wakilni<small>marketplace</small></span></a><button class="ib" data-act="closeall" aria-label="Close menu" style="font-size:24px">&times;</button></div>
+  <div class="top"><a class="logo" href="#home"><i>L</i><span>lamma<small>by wakilni</small></span></a><button class="ib" data-act="closeall" aria-label="Close menu" style="font-size:24px">&times;</button></div>
   <nav id="sideNav"></nav>
 </aside>
 <div class="sheet" id="sheet" role="dialog" aria-label="Filters"></div>
@@ -434,7 +435,7 @@ h1{font-size:clamp(32px,9vw,44px)}h2{font-size:clamp(24px,7vw,32px)}
   </div></section>
 
   <section class="band" style="padding-top:0"><div class="wrap"><div class="pband">
-    <div class="tx"><h2>Own a shop? <em>Grow with Wakilni.</em></h2><p class="muted">Reach shoppers in every district of Lebanon. We pick up, deliver and collect cash for you.</p><a class="btn" href="#partner">Introduce your business</a></div>
+    <div class="tx"><h2>Own a shop? <em>Grow with Lamma.</em></h2><p class="muted">Reach shoppers in every district of Lebanon. We pick up, deliver and collect cash for you.</p><a class="btn" href="#partner">Introduce your business</a></div>
     <img src="img/skinstore.jpg" alt="">
   </div></div></section>
 </div>
@@ -444,17 +445,17 @@ h1{font-size:clamp(32px,9vw,44px)}h2{font-size:clamp(24px,7vw,32px)}
 </main>
 
 <footer class="band"><div class="wrap ftg">
-  <div><a class="logo" href="#home" style="color:#fff"><i>w</i><span>wakilni<small>marketplace</small></span></a><p style="margin-top:12px;color:#cdbcc6">Lebanon's favourite beauty, self-care and fitness stores, delivered together.</p></div>
+  <div><a class="logo" href="#home" style="color:#fff"><i>L</i><span>lamma<small>by wakilni</small></span></a><p style="margin-top:12px;color:#cdbcc6">Lebanon's favourite beauty, self-care and fitness stores, delivered together.</p></div>
   <div><h3>Aisles</h3><a href="#cat-makeup">Makeup</a><a href="#cat-selfcare">Self-care</a><a href="#cat-fitness">Fitness</a></div>
-  <div><h3>Wakilni</h3><a href="#stores">All stores</a><a href="#partner">Sell on Wakilni</a><a href="#rewards">Rewards</a><a href="#" data-act="help">Help</a></div>
+  <div><h3>Lamma</h3><a href="#stores">All stores</a><a href="#partner">Sell on Lamma</a><a href="#rewards">Rewards</a><a href="#" data-act="help">Help</a></div>
   <div><h3>Talk to us</h3><p>WhatsApp +961 1 555 010</p><p>Mon to Sat, 8am to 6pm</p></div>
-  <p style="grid-column:1/-1;font-size:13px;border-top:1px solid rgb(255 255 255/.12);padding-top:16px;color:#bfaab6">Concept prototype for the Wakilni Innovation Challenge. Store names, prices, ratings and reviews are sample data. Photos from Unsplash.</p>
+  <p style="grid-column:1/-1;font-size:13px;border-top:1px solid rgb(255 255 255/.12);padding-top:16px;color:#bfaab6">Lamma by Wakilni: concept prototype for the Wakilni Innovation Challenge. Store names, prices, ratings and reviews are sample data. Photos from Unsplash.</p>
 </div></footer>
 
 <div class="ov" id="ov"><div class="md" id="md" role="dialog" aria-modal="true"></div></div>
 <div class="ov" id="wov"><div class="wel" role="dialog" aria-modal="true" aria-label="Welcome">
   <div class="tx">
-    <p style="font-weight:800;color:var(--y)">Welcome to Wakilni Marketplace</p>
+    <p style="font-weight:800;color:var(--y)">Welcome to Lamma, by Wakilni</p>
     <h1>You pick the shops. <em>We do the running.</em></h1>
     <ul>
       <li><b>$5</b>delivery anywhere, Beirut to Saida</li>
@@ -548,7 +549,7 @@ const REWARDS=[
  {id:'r3',n:'The Ordinary mini set',d:'Free gift added to your bag',cost:600,type:'item',img:'ordinary'},
  {id:'r4',n:'Pilates grip socks',d:'Free pair from Studio Move',cost:900,type:'item',img:'gripsock'},
  {id:'r5',n:'$15 off orders over $50',d:'Stacks with your level discount',cost:1200,type:'off',val:15,minSub:50,lbl:'\u2212$15'},
- {id:'r6',n:'Wakilni self-care box',d:'Picks from four partner stores',cost:2000,type:'item',img:'pinkset'}
+ {id:'r6',n:'Lamma self-care box',d:'Picks from four partner stores',cost:2000,type:'item',img:'pinkset'}
 ];
 const NAMES=['Rana K.','Joelle A.','Karim S.','Nour H.','Hadi M.','Maya F.','Sara T.','Omar D.','Lea B.','Ziad R.','Yasmina C.','Tarek N.'];
 const SREV={makeup:['Everything was authentic and sealed. The packaging felt like a gift.','Prices were better than the mall and the shade guide was spot on.','They answered my WhatsApp in minutes to help me pick a foundation shade.','Ordered with my pharmacy items, all came together. Love it.'],
@@ -640,18 +641,18 @@ function renderStore(id){const s=STORES[id];const all=prodsOf(id);const subs=[..
  else if(storeTab==='reviews')body=`<div class="revsum"><div><p class="big">${s.r.toFixed(1)}</p><p style="color:#e0a100;font-size:20px;letter-spacing:2px">\u2605\u2605\u2605\u2605\u2605</p><p class="muted" style="margin:4px 0 8px">${s.rc.toLocaleString()} verified reviews</p><div class="dist">${dist.map(([k,n])=>`<div><span>${k}\u2605</span><u><s style="width:${(n/s.rc*100).toFixed(0)}%"></s></u><span>${n}</span></div>`).join('')}</div>
   <p style="margin-top:16px;font-weight:700">${lvl(s.lv)} \u00b7 ${LVN[s.lv]}</p></div>
   <div>${storeRevs(s).map(r=>`<div class="rv"><div class="who"><span class="av">${r.n[0]}</span><div><b>${r.n}</b><br><span class="stars"><i>${'\u2605'.repeat(r.r)}</i>${r.d} \u00b7 Verified order</span></div></div><p style="margin-top:8px">${esc(r.t)}</p></div>`).join('')}</div></div>`;
- else body=`<p style="font-size:18px;max-width:40em">${esc(s.about)}</p><div class="list" style="margin-top:20px;max-width:560px"><div class="it">Location<small>${esc(s.area)}</small></div><div class="it">Hours<small>${h.t}</small></div><div class="it">Price level<small>${'$'.repeat(s.lv)} \u00b7 ${LVN[s.lv]}</small></div><div class="it">Known for<small>${s.tags.map(esc).join(', ')}</small></div><div class="it">Products on Wakilni<small>${all.length}</small></div></div>`;
+ else body=`<p style="font-size:18px;max-width:40em">${esc(s.about)}</p><div class="list" style="margin-top:20px;max-width:560px"><div class="it">Location<small>${esc(s.area)}</small></div><div class="it">Hours<small>${h.t}</small></div><div class="it">Price level<small>${'$'.repeat(s.lv)} \u00b7 ${LVN[s.lv]}</small></div><div class="it">Known for<small>${s.tags.map(esc).join(', ')}</small></div><div class="it">Products on Lamma<small>${all.length}</small></div></div>`;
  return top+`<section class="band"><div class="wrap">${tabs}${body}
  <div class="sh" style="margin-top:56px"><h2>More ${CATS[s.c].n.toLowerCase()} <em>stores</em></h2></div><div class="slist">${storesOf(s.c).filter(x=>x.id!==id).slice(0,4).map(x=>storeRow(x)).join('')}</div></div></section>`}
 function renderStoresDir(){const ss=Object.values(STORES).filter(s=>!stCat||s.c===stCat).sort((a,b)=>sRec(b)-sRec(a));
  return plainHead('All <em>stores</em>',`${Object.keys(STORES).length} partner stores across Lebanon.`)+`<section class="band" style="padding-top:20px"><div class="wrap">${catChips(stCat,'stcat')}<div class="slist" style="margin-top:8px">${ss.map(s=>storeRow(s)).join('')}</div></div></section>`}
-function renderTrending(){return plainHead('Trending <em>now</em>','The most added items on Wakilni this week.')+`<section class="band" style="padding-top:20px"><div class="wrap">${catChips(trCat,'tr')}<div class="grid" style="margin-top:20px">${trending(trCat).map((p,i)=>card(p,{rank:i+1})).join('')}</div></div></section>`}
+function renderTrending(){return plainHead('Trending <em>now</em>','The most added items on Lamma this week.')+`<section class="band" style="padding-top:20px"><div class="wrap">${catChips(trCat,'tr')}<div class="grid" style="margin-top:20px">${trending(trCat).map((p,i)=>card(p,{rank:i+1})).join('')}</div></div></section>`}
 function renderForYou(){const has=S.viewed.length||S.searched.length;
  return plainHead('Just for <em>you</em>',has?'Updated each time you view an item or search.':'View a few items or search, and this page fills with picks for you.')+
  `<section class="band" style="padding-top:20px"><div class="wrap">${has?`<div class="chips" style="margin-bottom:20px"><button class="chip" data-act="clearhist">Clear history</button>${S.searched.slice(-5).reverse().map(q=>`<button class="chip" data-q="${esc(q)}">\u201c${esc(q)}\u201d</button>`).join('')}</div>`:''}<div class="grid">${forYou(24).map(o=>card(o.p,{why:o.why})).join('')}</div></div></section>`}
 function renderDeals(){const ds=DEALS.filter(d=>!dealCat||d.p.c===dealCat);
  return plainHead('All <em>offers</em>',`${DEALS.length} marked-down prices right now. Biggest discounts first.`)+`<section class="band" style="padding-top:20px"><div class="wrap">${catChips(dealCat,'dcat')}<div class="grid" style="margin-top:20px">${ds.map(d=>card(d.p,{offer:d.o})).join('')}</div></div></section>`}
-function renderPartner(){return head('skinstore',[['','Sell on Wakilni']],'Bring your shop to <em style="color:var(--y)">Wakilni</em>','Reach shoppers in every district of Lebanon. We handle pickup, delivery and cash collection.')+
+function renderPartner(){return head('skinstore',[['','Sell on Lamma']],'Bring your shop to <em style="color:var(--y)">Lamma</em>','Reach shoppers in every district of Lebanon. We handle pickup, delivery and cash collection.')+
  `<section class="band"><div class="wrap" style="max-width:860px"><div class="stats" style="margin-bottom:32px"><div><b>25</b>districts reached by our drivers</div><div><b>1 driver</b>shared across stores, so your items land in bigger bags</div><div><b>Weekly</b>payouts of cash collected</div></div>
  <form id="pform" class="pform"><div class="full"><h2>Introduce your <em>business</em></h2><p class="muted" style="margin-top:6px">Our partnerships team replies within 3 working days.</p></div>
  <label class="fld">Business name<input id="pfName" placeholder="Glow Bar"></label>
@@ -682,7 +683,7 @@ function renderProfile(){const cur=tierOf(S.life);const nm=S.name||'Guest shoppe
  <div class="it">${ico('user')}Details<small>${S.phone?esc(S.phone):'Added at checkout'}</small></div>
  <a href="#" data-act="loc">${ico('home')}Delivery addresses<small>${S.locs.length} saved · ${esc(curLoc().lbl)}</small></a>
  <a href="#" data-act="help">${ico('help')}Help and support<small>WhatsApp</small></a>
- <a href="#partner">${ico('stores')}Introduce your business<small>Sell on Wakilni</small></a></div></div></div></section>`}
+ <a href="#partner">${ico('stores')}Introduce your business<small>Sell on Lamma</small></a></div></div></div></section>`}
 
 /* ---------- search ---------- */
 function filtered(q){
@@ -743,7 +744,7 @@ function renderCart(step){const d=$('#drawer');const T=totals();const n=S.cart.r
  <div class="sum"><span>Delivery</span><span>${T.del?money(T.del):'<b class="ok">Free</b>'}</span></div><div class="sum t"><span>Total</span><span>${money(T.total)}</span></div><p class="muted" style="font-size:13px">You earn <b style="color:var(--ink)">${T.earn} points</b> \u00b7 arrives ${eta()}</p>`;
  if(step==='cart'){
   d.innerHTML=head+`<div class="b"><div class="driver"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="13" height="10" rx="2"/><path d="M15 10h4l3 3v4h-7"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg><span><b>${real.length} store${real.length===1?'':'s'}, one driver.</b> We collect from each and deliver together.</span></div>
-  ${shops.map(s=>`<div class="sg"><h4><span>${s==='rw'?'Wakilni Rewards':esc(STORES[s].n)}</span><span class="muted">${s==='rw'?'free gifts':esc(STORES[s].area)}</span></h4>${S.cart.filter(l=>l.sid===s).map(l=>{if(l.free)return`<div class="li"><img src="${im(l.img)}" alt=""><div><div style="font-weight:700;font-size:14px">${esc(l.n)}</div><div class="muted" style="font-size:13px">Free reward</div></div><button class="chip" data-rm="${l.pid}:${l.sid}">Remove</button></div>`;
+  ${shops.map(s=>`<div class="sg"><h4><span>${s==='rw'?'Lamma Rewards':esc(STORES[s].n)}</span><span class="muted">${s==='rw'?'free gifts':esc(STORES[s].area)}</span></h4>${S.cart.filter(l=>l.sid===s).map(l=>{if(l.free)return`<div class="li"><img src="${im(l.img)}" alt=""><div><div style="font-weight:700;font-size:14px">${esc(l.n)}</div><div class="muted" style="font-size:13px">Free reward</div></div><button class="chip" data-rm="${l.pid}:${l.sid}">Remove</button></div>`;
    const p=byId[l.pid];const o=offerAt(p,l.sid);
    return`<div class="li"><img src="${im(p.img)}" alt=""><div><div style="font-weight:700;font-size:14px;line-height:1.3">${esc(p.n)}</div><div class="muted" style="font-size:13px">${money(o.p)} each</div></div><div style="display:flex;flex-direction:column;align-items:end;gap:6px"><div class="qty"><button data-qd="${l.pid}:${l.sid}:-1" aria-label="Less">\u2212</button><span style="min-width:20px;text-align:center">${l.q}</span><button data-qd="${l.pid}:${l.sid}:1" aria-label="More">+</button></div><b class="nw">${money(o.p*l.q)}</b></div></div>`}).join('')}</div>`).join('')}
   <label class="fld">Voucher<select id="vsel"><option value="">No voucher</option>${S.vouchers.map(v=>`<option value="${v.id}" ${S.applied===v.id?'selected':''}>${esc(v.n)}</option>`).join('')}</select></label></div>
@@ -815,7 +816,7 @@ function renderSide(){const h=location.hash||'#home';
  $('#sideNav').innerHTML=L('#home','Home','home')+L('#foryou','Just for you','heart')+Object.keys(CATS).map(aisle).join('')+
  SEC('stores',`${ico('stores')}All stores`,`<a href="#stores">Browse all ${Object.keys(STORES).length} stores</a>`+Object.entries(CATS).map(([k,c])=>`<a href="#stores" data-stcatgo="${k}">${c.n} stores <span class="muted" style="margin-left:auto">${storesOf(k).length}</span></a>`).join(''))+
  SEC('more',`${ico('more')}More`,`<a href="#trending">Trending now</a><a href="#deals">All offers</a><a href="#rewards">Rewards and level</a><a href="#profile">My profile and orders</a><a href="#" data-act="help">Help and support</a>`)+
- `<div class="biz"><p class="ser" style="font-size:22px;color:#fff;margin:0">Own a shop?</p><p>Introduce your business to Wakilni and sell across Lebanon.</p><a class="btn y sm" href="#partner">Introduce your business</a></div>`}
+ `<div class="biz"><p class="ser" style="font-size:22px;color:#fff;margin:0">Own a shop?</p><p>Introduce your business to Lamma and sell across Lebanon.</p><a class="btn y sm" href="#partner">Introduce your business</a></div>`}
 function redeem(id){const r=REWARDS.find(x=>x.id===id);if(S.pts<r.cost)return;S.pts-=r.cost;
  if(r.type==='item'){S.cart.push({pid:r.id+'-'+Date.now(),sid:'rw',q:1,free:true,n:r.n,img:r.img});toast(`${r.n} added to your bag`)}
  else{const v={id:'v'+Date.now(),n:r.n,type:r.type,val:r.val,minSub:r.minSub};S.vouchers.push(v);S.applied=v.id;toast('Voucher ready in your bag')}

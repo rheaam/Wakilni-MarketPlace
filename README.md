@@ -1,6 +1,6 @@
-# Wakilni Marketplace (concept prototype)
+# Lamma by Wakilni (concept prototype)
 
-A phone-first web app concept for Wakilni Marketplace, built for the ENTM 250K Wakilni Innovation Challenge.
+A phone-first web app concept for Lamma, a marketplace by Wakilni, built for the ENTM 250K Wakilni Innovation Challenge.
 
 ## Put it online with GitHub Pages
 1. Create a new public repository on GitHub (for example `wakilni-marketplace`).
